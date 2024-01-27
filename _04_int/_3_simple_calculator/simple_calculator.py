@@ -6,3 +6,20 @@
 * Use if-else statements to provide the desired math operation on the numbers
   and display the result.
 """
+import math
+num1=float(input("Give me 1 number 1 operation then 1 more number(press enter after each input): "))
+oper = input()
+num2 = float(input())
+
+if oper == "+":
+    print(num1+num2)
+elif oper == "-":
+    print(num1-num2)
+elif oper == "/":
+    print(num1/num2)
+elif oper == "*":
+    print(num1*num2)
+elif oper == "^":
+    print(num1**num2)
+else:
+    print("incorrect operator")
